@@ -112,66 +112,7 @@ footer {
 
 
 
- /*Responsividade*/
-
-@media screen and (max-width: 1115px) {
-
-
-    body {
-        max-width: auto;
-        justify-content: center;
-        text-align: center;
-
-    }
-
-    .div{ 
-        width: auto;
-        height: 20rem;
-
-        margin-top: 6rem;
-
-
-    }
-    
-
-    h1 {
-        font-size: 1.3rem;
-
-    }
-
-    h4, input, button {
-        font-size: .7rem;
-
-    }
-
-    p{
-        color: red;
-        margin-top: 1rem;
-        font-weight: bolder;          
-        font-size: 1rem;          
-        
-    }
-
-}
-
-    /*Responsividade*/
-
-@media screen and (max-width: 845px) {
-
-    body {
-        padding: 0;
-
-    }
-
-    .div{ 
-        width: 20rem;
-        height: 20rem;
-
-
-    }
-
-
-}
+ 
 
 
 

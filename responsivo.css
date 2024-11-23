@@ -1,0 +1,72 @@
+/*Responsividade*/
+
+@media screen and (max-width: 1115px) {
+
+
+    body {
+        max-width: auto;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .div_gerar_senha{ 
+        width: auto;
+        height: 20rem;
+
+        margin-top: 6rem;
+
+
+    }
+    
+
+    h1 {
+        font-size: 1.3rem;
+
+    }
+
+   
+    p{
+        color: red;
+        margin-top: 1rem;
+        font-weight: bolder;          
+        font-size: 1rem;          
+        
+    }
+
+}
+
+    /*Responsividade*/
+
+@media screen and (max-width: 700px) {
+
+    body {
+        padding: 0;
+
+    }
+
+    .div_gerar_senha{ 
+        width: 20rem;
+        height: 20rem;
+
+        margin-top: 8rem;
+        
+        text-align: center;
+
+
+    }
+
+    input {
+        /*padding-left: .2rem;
+        padding-right: 10rem;*/
+        padding: .4rem 4rem .4rem .2rem;
+
+    }
+
+    button {
+        
+
+    }
+
+
+}
