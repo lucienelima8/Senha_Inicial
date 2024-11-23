@@ -24,6 +24,7 @@ body {
     border-radius: 15px;
     /*padding: 20px;*/
     text-align: left;
+
     padding: 1rem;
  
     width: 40rem;
@@ -34,8 +35,21 @@ body {
  
     background: linear-gradient(to top, right, var(--cor_fundo), #ccc, green, black, blue);
  
-    /*box-shadow: 15px 10px 8px rgb(85, 6, 85);*/
-    box-shadow: 15px 10px 8px rgba(54, 167, 41, 0.699);
+    /*box shadow embaixo e no lado direito*/
+    /*box-shadow: 15px 10px 8px rgba(54, 167, 41, 0.699);*/
+    
+    /*box shadow embaixo e no lado direito cor preto*/
+    /*box-shadow: 10px 5px 5px black;*/
+
+    /*box shadow como uma mancha no lado esquerdo inferior cor preto*/
+    /*box-shadow: -120px 120px 120px #000;*/
+
+    /*box shadow como uma mancha no lado esqueredo inferior cor preto mais claro*/
+    /*box-shadow: -120px 100px 120px #1b1818; */
+
+    /*box shadow como uma mancha na div dentro do gerador cor preto*/
+    box-shadow: inset 0 0 120px #000; 
+
     
 }
 
@@ -51,15 +65,16 @@ h1 {
 label {
     font-size: 1.1rem;
     font-weight: bold;
+
+    margin-left: 1rem;
     
 
 }
 
 input {
-    /*padding-left: .2rem;
-    padding-right: 10rem;*/
     padding: .4rem 10rem .4rem .2rem;
     margin-top: 1rem;
+    margin-left: 1rem;
 
 }
 
@@ -74,6 +89,7 @@ button {
     border: 1px solid red;
     border-radius: 15px;
     margin-left: .6rem;
+    margin-left: 1rem;
 
 
 }
