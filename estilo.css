@@ -86,7 +86,7 @@ button {
     /*font-weight: bolder;*/
     font-size: .8rem;
     font-weight: bolder;
-    border: 1px solid red;
+    border: 1px solid black;
     border-radius: 15px;
     margin-left: .6rem;
     margin-left: 1rem;
@@ -97,19 +97,21 @@ button {
 button:hover {
     font-weight: bolder;
     background-color: var(--cor_fundo);
-    border: 1px solid black;
+    border: 1px solid red;
+    transform: scale(1.1); 
+    
 
     
 }
 
 
 p{
-    color: red;
+    /*color: black;*/
     margin-top: 1rem;
     font-weight: bolder;          
     font-size: 1.2rem; 
-    text-align: center;         
-    
+    text-align: center;    
+        
 }
 
 footer {
