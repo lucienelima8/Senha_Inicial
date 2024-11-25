@@ -8,10 +8,10 @@ function gerar_senha() {
     if (validar_nome(nome_completo)) {
 
         /*Const pra pegar o sobrenome*/
-        const sobrenome = pegar_sobrenome(nome_completo);
+        const sobrenome = obterSobrenome(nome_completo);
 
         /*Const pra pegar a quantidade de vogais*/
-        const num_vogais = qntdd_vogais(nome_completo);
+        const num_vogais = contarVogais(nome_completo);
 
         /*Mensagem exibida com a senha*/
         document.querySelector("#resultado").innerHTML = `Sua senha inicial é: ${sobrenome}${num_vogais}`;
@@ -45,7 +45,7 @@ function validar_nome(nome) {
 }
 
 /*Pra pegar o sobrenome*/
-function pegar_sobrenome(nome) {
+function obterSobrenome(nome) {
 
     /*trim pra remover espaços em branco*/
     /*split pra dividir a string em arrays*/
@@ -60,7 +60,7 @@ function pegar_sobrenome(nome) {
 }
 
 /*Pra contar a quantidade de vogais do nome e sobrenome*/
-function qntdd_vogais(nome) {
+function contarVogais(nome) {
 
     /*nome.match pra encontrar todas as vogais*/
     /*[aieouAEIOU] pra definir o conjunto de caracteres a serem vogais*/
